@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Lighterion",
+  "version": "1.0",
+
+  "description": "Thème clair pour Criterion Channel.",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.criterionchannel.com/*"],
+      "js": ["lighterion.js"]
+    }
+  ]
+}
