@@ -239,6 +239,33 @@ h2 .film-title-wrapper a {
 .section-heading {
   color: #678;
 }
+.person-table tbody h3 a {
+  color: black;
+}
+.card-summary > .inner {
+  background-color: #BFBFBF;
+}
+.card-summary .detail .title a {
+  color: black;
+}
+.card-summary.-graph .sourcename {
+  color: black;
+}
+.profile-section-header > .heading {
+  color: black;
+}
+.card-summary .detail .sourcecta {
+  color: #789;
+}
+.content-teaser.-split {
+  background: #BFBFBF;
+}
+.review-tile > .header > .details .headline-2 > a {
+  color: black;
+}
+.content-teaser .title-1 a, .content-teaser .title-2 a {
+  color: #789;
+}
 `;
 
 let styleSheet = document.createElement("style");
