@@ -130,7 +130,93 @@ let otherStyles = `
   color: #DCDCDC;
 }
 .body-text.-prose a {
-  color: #8899aa;
+  color: #678;
+}
+.title-2 a, .title-3 a, .title-4 a {
+  color: black;
+}
+.attribution-block > .attribution .context .name a, .attribution-block > .attribution .name a {
+  color: #678;
+}
+h2 .film-title-wrapper a {
+  color: black;
+}
+.profile-summary .bio {
+  color: black;
+}
+.film-detail-content .headline-2 > a, .film-detail-content .headline-3 > a {
+  color: black;
+}
+.field, .rich-text-editor-target, .textarea, .tt-hint {
+  background-color: #fff;
+}
+#comments .comment-controls a {
+  color: #678;
+}
+.shortbackdropped.-crop .site-body.-backdrop {
+  padding-top: 410px;
+}
+.site-body.-backdrop {
+  padding-top: 420px;
+}
+.profile .site-body.-backdrop {
+  padding-top: 415px;
+}
+.person-yir-promo .yir-selector {
+  background: #BFBFBF;
+}
+.person-yir-promo .styled-number {
+  color: black;
+}
+.button {
+  background: #BFBFBF;
+  color: black;
+}
+.column-block h3 span {
+  background-color: #DCDCDC;
+  color: black;
+}
+#tabbed-content header ul li.selected a {
+  border-bottom: 1px solid #fff;
+  color: black;
+}
+.micro-button {
+  border: 2px solid #9ab;
+}
+.person-summary.-small > .name a {
+    color: black;
+}
+.body-text a {
+  color: #678;
+}
+.load-more-button, .notes-button, .pagination .paginate-ajax a, .pagination .paginate-ajax span, .pagination .paginate-chunk button, .pagination .paginate-nextprev a, .pagination .paginate-nextprev button, .pagination .paginate-nextprev span {
+  background: #BFBFBF;
+  color: black;
+}
+.main-nav > .navitems > .nav-account .subnav {
+  background: #DCDCDC;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 0 hsla(0,0%,100%,.125),0 0 5px hsla(0,0%,0%,.5);
+}
+.main-nav > .navitems > .nav-account .subnav li a.toggle-menu, .main-nav > .navitems > .nav-account .subnav li a.toggle-menu:hover {
+  color: #000 !important;
+}
+.activity-row.-basic {
+  background: #DCDCDC;
+}
+.activity-table .table-activity-description blockquote a.reveal:active, .activity-table .table-activity-description blockquote a.reveal:hover, .activity-table a.target {
+  color: #678;
+}
+.sub-nav li.selected a {
+  color: black;
+}
+.poster-list > .-placeholder, .poster-list > .listitem > .placeholder {
+  background-color: #CBCBCB;
+  // box-shadow: inset 0 0 0 1px rgba(221,238,255,.25);
+  box-shadow: none;
+}
+.film-detail-content .body-text blockquote {
+  color: #678;
 }
 `;
 
