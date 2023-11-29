@@ -266,6 +266,9 @@ h2 .film-title-wrapper a {
 .content-teaser .title-1 a, .content-teaser .title-2 a {
   color: #789;
 }
+.poster {
+  background: #BFBFBF;
+}
 `;
 
 let styleSheet = document.createElement("style");
