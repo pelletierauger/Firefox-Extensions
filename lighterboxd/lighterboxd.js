@@ -269,6 +269,15 @@ h2 .film-title-wrapper a {
 .poster {
   background: #BFBFBF;
 }
+.diary-summary-by-month .entrylist > .title a:any-link {
+  color: black;
+}
+.diary-summary-by-month .diarylist > .listitem .month {
+  color: #ddeeff;
+}
+.person-display-name {
+  color: black;
+}
 `;
 
 let styleSheet = document.createElement("style");
