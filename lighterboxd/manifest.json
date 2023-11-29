@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Lighterboxd",
+  "version": "1.0",
+
+  "description": "Thème clair pour Letterboxd.",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.letterboxd.com/*"],
+      "js": ["lighterboxd.js"]
+    }
+  ]
+}
