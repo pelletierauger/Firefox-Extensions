@@ -218,6 +218,27 @@ h2 .film-title-wrapper a {
 .film-detail-content .body-text blockquote {
   color: #678;
 }
+.film-list p.list-number {
+  color: black;
+}
+.actions-panel > ul > li.like-link-target .like-link > * {
+  color: black;
+}
+.actions-panel .count-link > a, .actions-panel .count-link > span {
+  color: black;
+}
+.progress-panel h3 {
+  color: black;
+}
+.progress-panel {
+  color: black;
+}
+.person-summary.-inline > .title-4 > .name {
+  color: #678;
+}
+.section-heading {
+  color: #678;
+}
 `;
 
 let styleSheet = document.createElement("style");
