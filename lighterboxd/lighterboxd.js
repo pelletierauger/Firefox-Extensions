@@ -278,6 +278,9 @@ h2 .film-title-wrapper a {
 .person-display-name {
   color: black;
 }
+.contextual-title > .headline-1 > a, .contextual-title > .headline-2 > a, .contextual-title > .title-1 > a {
+  color: black;
+}
 `;
 
 let styleSheet = document.createElement("style");
