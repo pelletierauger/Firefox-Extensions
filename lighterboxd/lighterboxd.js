@@ -168,6 +168,12 @@ h2 .film-title-wrapper a {
 .person-yir-promo .styled-number {
   color: black;
 }
+.profile-person-yir-promo .yir-selector {
+  background: #BFBFBF;
+}
+.profile-person-yir-promo .styled-number {
+  color: black;
+}
 .button {
   background: #BFBFBF;
   color: black;
@@ -279,6 +285,18 @@ h2 .film-title-wrapper a {
   color: black;
 }
 .contextual-title > .headline-1 > a, .contextual-title > .headline-2 > a, .contextual-title > .title-1 > a {
+  color: black;
+}
+.content-teaser .title-1 a, .content-teaser .title-2 a {
+  color: black;
+}
+.title-hero {
+  color: black;
+}
+.title-hero a, .title-maxi a {
+  color: #789;
+}
+.sub-heading {
   color: black;
 }
 `;
